@@ -1,0 +1,11 @@
+body {
+	height: 100%;
+}
+
+.mysite {
+	height: 1000px;
+}
+
+.mylogin {
+	padding: 10% 20% 0 20%;
+}

@@ -1,0 +1,17 @@
+body {
+	height:  100%;
+}
+
+.mysite {
+	height: 1500px;
+	margin-bottom: 0;
+}
+
+.map {
+	height: 360px;
+	width: 640px;
+}
+
+.card-content {
+	padding: 0 5% 0 5%;
+}

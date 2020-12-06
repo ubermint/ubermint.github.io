@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fitness Hub</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/events.css">
+        <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+        <script src="js/awesome.js"></script>
+    </head>
+    <body>
+        <section name="top" class="hero myhero">
+            <div class="hero-body">
+                <nav class="level mynavbar navbar">
+                    <p class="level-item has-text-centered">
+                        <button class="button is-white navmenu"
+                            onclick="location.href='about.html'">О проекте</button>
+                    </p>
+                    <p class="level-item has-text-centered">
+                        <button class="button is-white navmenu"
+                            onclick="location.href='events.html'">События</button>
+                    </p>
+                    <h1 class="level-item has-text-centered heading is-size-1 sitetitle has-text-weight-bold"
+                        onclick="location.href='index.html'">FITNESS HUB</h1>
+                    <p class="level-item has-text-centered">
+                        <button class="button is-white navmenu" onclick="location.href='forum.html'">Форум</button>
+                    </p>
+                    <p class="level-item has-text-centered">
+                        <button class="button is-white navmenu" onclick="location.href='login.html'">Аккаунт</button>
+                    </p>
+                </nav>
+            </div>
+        </section>
+        <div class="columns mysite">
+            <div class="column is-1"> </div>
+            <div class="column is-2 myside">
+            </div>
+            <div class="column is-6 myfeed">
+                <div class="container myfeed-content">
+                    <section class="section myfeed-header">
+                        <h1 class="title has-text-left mytitle">39-й Франкфуртский марафон</h1>
+                    </section>
+                    <div id="map" class="map"></div>
+                    <section class="section myfeed-footer">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    Ежегодный забег на марафонскую дистанцию во Франкфурте-на-Майне, Германия. Традиционно проходит в конце октября по городским улицам. В марафонском забеге принимают участие около 20 000 атлетов.<br>
+                                    <b>Дистанция:</b> 2,195 км<br>
+                                    <b>Рекорд трассы:</b> 2:03:42 <br>
+                                    <b>Время проведения:</b>
+                                    <time datetime="2021-10-31">11:00 AM - 31 Oct 2021</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Принять участие</a>
+                                <a href="#" class="card-footer-item">Подробности</a>
+                            </footer>
+                        </div>
+                    </section>
+                </div>
+                <div class="container myfeed-content">
+                    <section class="section myfeed-header">
+                        <h1 class="title has-text-left mytitle">39-й Франкфуртский марафон</h1>
+                    </section>
+                    <div id="map2" class="map"></div>
+                    <section class="section myfeed-footer">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    Ежегодный забег на марафонскую дистанцию во Франкфурте-на-Майне, Германия. Традиционно проходит в конце октября по городским улицам. В марафонском забеге принимают участие около 20 000 атлетов.<br>
+                                    <b>Дистанция:</b> 2,195 км<br>
+                                    <b>Рекорд трассы:</b> 2:03:42 <br>
+                                    <b>Время проведения:</b>
+                                    <time datetime="2021-10-31">11:00 AM - 31 Oct 2021</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Принять участие</a>
+                                <a href="#" class="card-footer-item">Подробности</a>
+                            </footer>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="column is-1"></div>
+        </div>
+        <script src="js/map.js"></script>
+    </body>
+</html>

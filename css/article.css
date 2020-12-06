@@ -1,0 +1,19 @@
+body {
+	height: 100%;
+}
+
+.mysite {
+	height: 1500px;
+}
+
+.mycomment {
+	margin: 0 5% 0 5%;
+}
+
+.mysend {
+	margin-top: 8px;
+}
+.mysend:hover {
+	background-color: #6acba6;
+	color: #fff;
+}
